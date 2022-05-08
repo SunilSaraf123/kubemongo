@@ -6,7 +6,7 @@ run kubectl nginx.yaml
 run kubectl secrets.yaml  
 
 # Description
-This is a  3 TIER APPLICATION with mongo express UI in middle layer with mongo Db in database layer and nginx in application layer
+This is a three TIER containerized APPLICATION with express UI in middle tier and mongo Db in EIS tier and nginx in application layer. Docker is the container provider.
 
 ## Pupose
 The purpose of the application is to potray the Pull Requests in Open Source Software Engineering Subject of BITS Pilani MTech Program. 
