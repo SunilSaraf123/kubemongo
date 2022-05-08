@@ -54,6 +54,7 @@ function getFileEnv(envVariable) {
       return file.toString().split(/\r?\n/)[0].trim();
     }
   }
+  // returns origVar of no fileVar is found
   return origVar;
 }
 
